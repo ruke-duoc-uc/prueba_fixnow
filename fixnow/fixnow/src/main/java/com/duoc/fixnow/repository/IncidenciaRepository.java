@@ -11,9 +11,7 @@ import java.util.List;
 @Repository
 public class IncidenciaRepository {
     public List<Incidencia> listaIncidencias;
-
     // Metodos Get
-
     public ResponseEntity<?> listarIncidencias() {
         try {
             return ResponseEntity.ok(listaIncidencias);
